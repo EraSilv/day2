@@ -1,0 +1,8 @@
+fire punch, 70
+waterfall, 90
+thunder bolt,  120
+high jump kick, 110
+flip, 0
+aura sphere, 90
+tackle, 26
+техника фугайсуй снаряд, 320

@@ -1,0 +1,36 @@
+p {
+    color: rgb(110, 67, 67);
+    background: rgb(162, 212, 165)
+
+}
+
+strong {
+    background: rgb(123, 184, 181);
+    font-size: 28px;
+
+}
+h1 {
+    font-size: 8px;
+
+}
+
+div:hover{
+    background: #fff;
+    font-size: 20px;
+}
+.Killer:active{
+    color: rgb(255, 8, 8);
+    background:rgb(36, 218, 0)
+}
+.LAdy{
+    color: rgb(209, 207, 69);
+    background: #efdf00
+}
+.Human{
+    color: hsl(124, 21%, 73%);
+    background: #1cc7d0
+}
+.Cop{
+    color: rgb(109, 179, 96);
+    background: #bfbfbf
+}

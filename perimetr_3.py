@@ -1,0 +1,5 @@
+a = float(input("введите значиние a:"))
+b = float(input("введите значиние b:"))
+s = float(input("введите значиние s:"))
+p = (a + b + s)
+print(p)
