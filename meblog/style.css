@@ -1,0 +1,64 @@
+.content-login {
+    text-align: center;
+    width: 380px;
+    margin:150px auto;
+    padding: 10px;
+    border-radius:7%;
+    background-color: white;
+}
+
+.copyright{
+    margin-top: 200px;
+    color: gray;
+}
+.login-image{
+    border-radius: 50%;
+
+}
+
+body{
+    background-color: rgba(102, 65, 10, 0.884);
+}
+
+input{
+    margin-top: 6px;
+}
+
+.Enter-button{
+    margin-right: 20px;
+}
+
+.bg-orange{
+    background-color: rgb(204, 126, 24);
+}
+.bg-red{
+    background-color: rgb(0, 0, 0);
+}
+
+.myenter{
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+}
+.mycreate{
+    color: rgb(32, 26, 23);
+    font-weight: bold
+}
+
+.admin-content .nav-link {
+    color: rgba(230, 137, 16, 0.822);
+    font-weight: bold;
+}
+.bg-mygradient{
+    background: linear-gradient(
+        10deg,#000000
+        0%,#908167
+    )
+}
+
+.form_post_add{
+    width:300px;
+    margin-left: 50px;
+}
+.img-profile{
+    border-radius:50%;
+}

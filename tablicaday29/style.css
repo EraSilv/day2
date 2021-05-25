@@ -1,0 +1,31 @@
+.python_group{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+.python_group td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.HAckers{
+    border: 1px solid rgba(9, 199, 50, 0.986);    
+    background-color:rgb(172, 133, 5);
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+
+}
+.Team{
+    border: 1px solid rgba(9, 199, 50, 0.986);    
+    background-color:rgb(172, 133, 5);
+    padding: 10px;
+    margin-left: 500px;
+
+    
+}
+.python_group caption{
+    border: 1.2px solid rgb(0, 0, 0);
+    background-color: rgb(103, 236, 26);
+}

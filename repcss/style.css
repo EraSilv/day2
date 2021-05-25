@@ -1,0 +1,41 @@
+.block1{
+    border: 3px solid rgb(14, 75, 75);
+    margin-left: 20px;
+    margin-right:455px;
+    padding:3px;
+    text-align:center;
+    /* background-color: rgb(70, 223, 23); */
+    background-image: url(sharingan.png);
+    background-position: center ;
+    color:rgb(255, 240, 240);
+    
+}
+.block2{
+    border: 3px solid rgb(15, 36, 228);
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right:455px;
+    padding:3px;
+    text-align: center;
+    background-color: rgb(187, 118, 28);
+    color:rgb(16, 0, 240);
+}
+
+.span1{
+    margin-left: 120px;
+    border: 2px solid rgb(187, 230, 31);
+    padding: 2px;
+
+}
+
+.span2{
+    margin-left: 60px;
+    border: 2px solid rgb(46, 230, 22);
+    padding: 2px
+    
+
+}
+.jon{
+    background-image: url(johny.jpg);
+    
+}

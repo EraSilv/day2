@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>MBLGpost-add</title>
+</head>
+<body>
+    <div class="admin-content">
+       <header class="navbar navbar-light bg-mygradient" >
+        <nav class="nav nav-pills">
+            <span class="nav-item">
+                <a href="/" class="nav-link">Main</a>
+            </span><br>
+            <span class="nav-item">
+                <a href="/" class="nav-link">Users</a>
+            </span><br>
+            <span class="nav-item">
+                <a href="/" class="nav-link">Articles</a>
+            </span>
+        </nav>
+        <nav class='nav nav-pills justify-content-end'> 
+            <span class="nav-item">
+                <a href="/" class="nav-link">Get out</a>
+            </span>
+        </nav>
+       </header>
+    </div>
+</body>
+<body>
+    <div class="form_post_add">
+        <form action="">
+        <fieldset>
+            <legend>Форма добавления Статьи</legend>
+            <label for="title">Заголовок</label><br>
+            <input class="form-control" type="text" name="title" id="title" placeholder="Введите заголовок статьи"><br>
+
+            <label for="content">Содержимое</label><br>
+            <textarea name="content" id="content" cols="30" rows="10"></textarea><br>
+
+            <label for="visible">Видимость</label>
+            <input class='form-checkbox-input' type="checkbox" name="visible" id="visible"><br>
+            
+            <label for="visible">Выберите категорию: </label>
+            <select name="post_category" id="post_category">
+                <option value="economic">Экономика</option>
+                <option value="catastroph">Катастрофы</option>
+                <option value="programming" selected="selected">Программирование</option>
+
+                <optgroup label="Новости по Кыргызстану">
+                    <option value="osh">Ош</option>
+                    <option value="bishkek">Бишкек</option>
+                </optgroup>
+
+                <optgroup label="О биткойн">
+                    <option value="btc">Биткойн</option>
+                    <option value="eth">Эфириум</option>
+                </optgroup>
+            </select><br><br>
+
+            <button class="btn btn-success" type="submit">Сохранить</button>
+        </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
